@@ -1,0 +1,47 @@
+name: team_between_leaf
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_secure_storage: ^9.0.0
+  dio: ^5.4.1
+  provider: ^6.1.2
+  flutter_naver_login: ^1.8.0
+  google_sign_in: ^6.2.1
+  kakao_flutter_sdk: ^1.9.0
+  mask_text_input_formatter: ^2.9.0
+  shared_preferences: ^2.2.2
+  flutter_jailbreak_detection: ^1.10.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: PretendardBold
+      fonts:
+        - asset: assets/fonts/Pretendard-Bold.otf
+    - family: PretendardSemiBold
+      fonts:
+        - asset: assets/fonts/Pretendard-SemiBold.otf
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.otf
+
+
+
